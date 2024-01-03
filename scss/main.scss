@@ -6,3 +6,50 @@
 @import "visually-hidden";
 @import "container";
 @import "./block/block";
+
+
+.collection {
+    background-image: url("../images/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+.collection__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.collection__items {
+    display: inline-block;
+    width: 255px;
+    margin-left: 30px;
+}
+.collection__img {
+    margin-bottom: 50px;
+    margin-top: 170px;
+    z-index: 2;
+    padding: 0;
+}
+.collection__paragraph {
+    color: #333D4B;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+.collection__text {
+    margin-bottom: 200px;
+    color: #333D4B;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
