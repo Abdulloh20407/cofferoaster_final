@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header {
+    padding: 43px 50px;
+}
+.header__logo-link {
+    display: inline-block;
+}
+.navbar__item {
+    display: inline-block;
+    margin-left: 33px;
+}
+.navbar__link {
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+.navbar__link:hover{
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+
